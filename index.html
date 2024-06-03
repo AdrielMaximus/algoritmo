@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Convert | Export html Table to CSV & EXCEL File</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+<main class="table" id="customers_table">
+    <section class="table__header">
+        <h1>Doações</h1>
+        <div class="input-group">
+            <input type="search" placeholder="Search Data...">
+            <img src="images/search.png" alt="">
+        </div>
+        <div class="export__file">
+            <label for="export-file" class="export__file-btn" title="Export File"></label>
+            <input type="checkbox" id="export-file">
+            <div class="export__file-options">
+              <a href="index2.html"><label>Doador? &nbsp; &#10140;</label></a>
+            </div>
+        </div>
+    </section>
+    <section class="table__body">
+        <table>
+            <thead>
+                <tr>
+                    <th>  <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Doador <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Local <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Validade <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Doações <span class="icon-arrow">&UpArrow;</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> <img src="images/Zinzu Chan Lee.jpg" alt="">Celso</td>
+                    <td> Salvador </td>
+                    <td>  </td>
+                    <td>
+                        <p class="status delivered">Entregue</p>
+                    </td>
+                    <td> <strong> R$128.90 </strong></td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td><img src="images/Jeet Saru.png" alt=""> Bruno </td>
+                    <td> Lauro de Freitas </td>
+                    <td> 27 Aug, 2024 </td>
+                    <td>
+                        <p class="status cancelled">Cancelado</p>
+                    </td>
+                    <td> <strong>2 kg de arroz integral</strong> </td>
+                </tr>
+                <tr>
+                    <td> 3</td>
+                    <td><img src="images/Sonal Gharti.jpg" alt=""> Gibson </td>
+                    <td> Amapá </td>
+                    <td> 14 Mar, 2027 </td>
+                    <td>
+                        <p class="status shipped">A Caminho</p>
+                    </td>
+                    <td> <strong>12 Colchões</strong> </td>
+                </tr>
+                <tr>
+                    <td> 5</td>
+                    <td><img src="images/Sarita Limbu.jpg" alt=""> Gabriel </td>
+                    <td> Rio de Janeiro </td>
+                    <td> </td>
+                    <td>
+                        <p class="status pending">Pendente</p>
+                    </td>
+                    <td> <strong>R$399.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 6</td>
+                    <td><img src="images/Alex Gonley.jpg" alt=""> Felipe </td>
+                    <td> Recife </td>
+                    <td> </td>
+                    <td>
+                        <p class="status cancelled">Cancelado</p>
+                    </td>
+                    <td> <strong>R$399.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 7</td>
+                    <td><img src="images/Alson GC.jpg" alt=""> Kanu </td>
+                    <td> Salvador </td>
+                    <td> 20 May, 2023 </td>
+                    <td>
+                        <p class="status delivered">Entregue</p>
+                    </td>
+                    <td> <strong>Uma taça da libertadores</strong> </td>
+                </tr>
+                <tr>
+                    <td> 8</td>
+                    <td><img src="images/Sarita Limbu.jpg" alt=""> Neymar </td>
+                    <td> Noruega </td>
+                    <td> 30 Feb, 2023 </td>
+                    <td>
+                        <p class="status pending">Pendente</p>
+                    </td>
+                    <td> <strong>R$25.000</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="images/Alex Gonley.jpg" alt=""> Chico </td>
+                    <td> Salvador </td>
+                    <td> 22 jul, 2024 </td>
+                    <td>
+                        <p class="status delivered">Entregue</p>
+                    </td>
+                    <td> <strong>5 engradados de stella geladas</strong> </td>
+                </tr>
+                <tr>
+                    <td> 10</td>
+                    <td><img src="images/Alex Gonley.jpg" alt=""> Silvio Santos </td>
+                    <td> São Paulo </td>
+                    <td>  </td>
+                    <td>
+                        <p class="status delivered">Entregue</p>
+                    </td>
+                    <td> <strong>R$365.00</strong> </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+<script src="script.js"></script>
+
+</body>
+
+</html>
